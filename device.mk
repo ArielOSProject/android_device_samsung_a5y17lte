@@ -18,10 +18,6 @@ LOCAL_PATH := device/samsung/a5y17lte
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-# GPS configuration file
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf
-
 # System.prop
 TARGET_SYSTEM_PROP += device/samsung/a5y17lte/system.prop
 
